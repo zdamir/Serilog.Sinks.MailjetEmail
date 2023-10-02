@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+      <TargetFrameworks>netstandard2.1</TargetFrameworks>
+      <PackageVersion>0.0.1</PackageVersion>
+      <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      <Version>0.0.1</Version>
+      <Authors>zdamir</Authors>
+      <Title>Serilog.Sinks.MailJetEmail</Title>
+      <Description>Serilog MailJet Email Sink</Description>
+      <PackageProjectUrl>https://github.com/zdamir/Serilog.Sinks.MailjetEmail</PackageProjectUrl>
+      <RepositoryUrl>https://github.com/zdamir/Serilog.Sinks.MailjetEmail</RepositoryUrl>
+      <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mailjet.Api" Version="3.0.0" />
+    <PackageReference Include="Serilog" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.PeriodicBatching" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
